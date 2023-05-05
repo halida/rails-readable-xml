@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.files       = Dir["{app,lib}/**/*"] + ["MIT-LICENSE", "Gemfile", "README.md"]
   s.version     = ReadableXML::Rails::VERSION
 
-  s.add_dependency "railties", ">= 3.1.0", "< 5.0"
+  s.add_dependency "railties", ">= 3.1.0"
   s.add_development_dependency "rails", ">= 3.1"
   s.add_development_dependency "jquery-rails"
 end
